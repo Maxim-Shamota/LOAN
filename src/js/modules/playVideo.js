@@ -30,7 +30,7 @@ export default class VideoPlayer {
                         this.path = btn.getAttribute('data-url');
 
                         this.createPlayer(this.path);
-                }
+                    }
                 }
             });
         });
